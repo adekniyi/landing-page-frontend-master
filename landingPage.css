@@ -488,7 +488,7 @@ input {
     }
 
 }
-@media (max-width: 500px) {
+@media (max-width: 450px) {
     .wrapper {
         display: flex;
         flex-direction: column;
@@ -501,7 +501,7 @@ input {
     .imgNcontent .imgV {
         margin: 0 auto;
         width: 90%;
-        margin-left: 50px;
+        margin-left: 10%;
         margin-bottom: 300px;
         height: 70px;
     }
@@ -532,7 +532,7 @@ input {
         font-size: 17px;
         height: 55px;
         margin-right: 15px;
-        margin-left: 17px;
+        margin-left: 12%;
         border-radius: 30px;
         width: 300px;
         cursor: pointer;
@@ -552,12 +552,12 @@ input {
     .imgcontent {
         margin: 0 auto;
         width: 68%;
-        margin-left: 80px;
+        margin-left: 15%;
         text-align: center;
     }
     .content2 {
         width: 75%;
-        margin-left: 50px;
+        margin-left: 11%;
         text-align: center;
     }
     .imgC {
@@ -573,7 +573,7 @@ input {
     .content3 {
         margin-top: 100px;
         width: 80%;
-        margin-left: 50px;
+        margin-left: 11%;
         text-align: center;
         margin-bottom: 28px;
     }
@@ -584,7 +584,7 @@ input {
     }
     .boxcont {
         width: 90%;
-        margin-left: 10px;
+        margin-left: 2%;
         text-align: center;
         margin-bottom: 30px;
     }
@@ -607,7 +607,7 @@ input {
     .bottom {
         margin-top: 100px;
         width: 80%;
-        margin-left: 50px;
+        margin-left: 5%;
         text-align: center;
         margin-bottom: 500px;
     }
@@ -620,7 +620,7 @@ input {
         flex-direction: column;
     }
     .firstFoot img{
-       margin-left: 90px;
+       margin-left: 7%;
     }
     .footer{
         margin: 0 auto;
@@ -630,6 +630,19 @@ input {
     .secFoot img{
 
         padding-left: 30px;
+    }
+}
+
+@media (max-width: 450px) {
+    input {
+        font-size: 17px;
+        height: 55px;
+        margin-right: 15px;
+        margin-left: -5%;
+        border-radius: 30px;
+        width: 300px;
+        cursor: pointer;
+        margin-bottom: 20px;
     }
 }
 
